@@ -34,7 +34,7 @@ export default function AboutPage() {
                           Des hommes et des femmes engagés pour la mission
                         </h3>
                         <p className="text-muted-foreground italic leading-relaxed">
-                          Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint Esprit, et enseignez-leur à observer tout ce que je vous ai prescrit. Et voici, je suis avec vous tous les jours, jusqu'à la fin du monde. - Mathieu 28:19-20
+                          Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint Esprit, et enseignez-leur à observer tout ce que je vous ai prescrit. Et voici, je suis avec vous tous les jours, jusqu'à la fin du monde. - Matthieu 28:19-20
                         </p>
                       </div>
                     </div>
