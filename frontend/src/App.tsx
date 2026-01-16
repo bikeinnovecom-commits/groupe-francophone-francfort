@@ -1,7 +1,7 @@
  import { RouterProvider, createRouter, createRoute, createRootRoute, Link, Outlet, useRouterState } from '@tanstack/react-router';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import AboutPage from './pages/AboutPage';
 import VisionPage from './pages/VisionPage';
@@ -16,6 +16,11 @@ function Layout() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const routerState = useRouterState();
   const currentPath = routerState.location.pathname;
+
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [currentPath]);
 
   const navLinks = [
     { path: '/', label: 'Qui sommes-nous ?' },
