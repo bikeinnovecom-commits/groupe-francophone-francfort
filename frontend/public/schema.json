@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Groupe Francophone Adventiste de Francfort",
+  "alternateName": "Communauté Adventiste Francophone de Frankfurt",
+  "description": "Communauté adventiste francophone à Francfort. Groupe de chrétiens adventistes francophones offrant des études bibliques, des moments de fraternité et un engagement spirituel authentique.",
+  "url": "https://groupe-francophone-francfort.vercel.app",
+  "logo": "https://groupe-francophone-francfort.vercel.app/assets/adventist-logo.png",
+  "@type": "Church",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Francfort",
+    "addressRegion": "Hesse",
+    "addressCountry": "DE"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "50.1109",
+    "longitude": "8.6821"
+  },
+  "sameAs": [
+    "https://chat.whatsapp.com/Js0bgVDFQ9oIQPzFgfJEpO"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Community",
+    "availableLanguage": ["French", "Français"]
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Francfort"
+  },
+  "memberOf": {
+    "@type": "Organization",
+    "name": "Église Adventiste du Septième Jour"
+  }
+}
