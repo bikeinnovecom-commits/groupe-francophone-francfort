@@ -232,9 +232,9 @@ export default function ProjectsPage() {
                     simplement la fraternité, il y a une place pour vous dans nos projets.
                   </p>
                   <div className="flex flex-wrap gap-4 justify-center">
-                    <Link to="/">
+                    <Link to="/guide">
                       <Button className="glass-button glass-button-primary">
-                        En Savoir Plus
+                        Notre Forum
                       </Button>
                     </Link>
                     <Link to="/mission">
