@@ -9,7 +9,7 @@ export default function AboutPage() {
   return (
     <div className="gradient-background">
       {/* Community Image Carousel */}
-      <section className="pt-20 pb-10">
+      <section className="pt-20 pb-4">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <Carousel 
@@ -100,7 +100,7 @@ export default function AboutPage() {
 
       {/* Hero Section */}
       <section className="relative min-h-[400px] flex items-center justify-center overflow-hidden">
-        <div className="container mx-auto px-4 py-20 relative z-10">
+        <div className="container mx-auto px-4 py-10 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground animate-fade-in">
               Qui sommes-nous?
