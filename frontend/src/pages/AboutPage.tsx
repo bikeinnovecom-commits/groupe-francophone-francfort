@@ -115,7 +115,7 @@ export default function AboutPage() {
             <div className="flex flex-wrap gap-4 justify-center">
               <Link to="/vision">
                 <Button className="glass-button glass-button-primary">
-                  Découvrir notre vision
+                  Notre identité
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
