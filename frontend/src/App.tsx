@@ -36,9 +36,9 @@ function Layout() {
               <img 
                 src="/assets/adventist-logo.png" 
                 alt="Logo" 
-                className="h-12 w-12 object-contain"
+                className="h-12 w-12 object-contain flex-shrink-0"
               />
-              <span className="text-xl font-bold text-foreground hidden sm:inline">Groupe Francophone Adventiste de Francfort</span>
+              <span className="text-sm sm:text-xl font-bold text-foreground leading-tight">Groupe Francophone Adventiste de Francfort</span>
             </Link>
 
             {/* Desktop Navigation */}
