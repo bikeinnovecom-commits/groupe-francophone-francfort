@@ -37,13 +37,13 @@ function Layout() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <Link to="/" className="flex items-end gap-3 hover:opacity-80 transition-opacity">
               <img 
                 src="/assets/adventist-logo.png" 
                 alt="Logo" 
-                className="h-12 w-12 object-contain flex-shrink-0"
+                className="h-18 w-18 object-contain flex-shrink-0"
               />
-              <span className="text-sm sm:text-xl font-bold text-foreground leading-tight">Groupe Francophone Adventiste de Francfort</span>
+              <span className="text-xs sm:text-lg font-bold text-foreground leading-tight pb-0.5">Groupe Francophone Adventiste de Francfort</span>
             </Link>
 
             {/* Desktop Navigation */}
@@ -101,14 +101,9 @@ function Layout() {
       <footer className="border-t border-white/10 backdrop-blur-md bg-background/80 mt-auto">
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-            <div className="flex items-center gap-3">
-              <img 
-                src="/assets/adventist-logo.png" 
-                alt="Logo Adventiste" 
-                className="h-10 w-10 object-contain"
-              />
-              <span className="text-sm text-foreground font-medium">
-                Église Adventiste du 7ème Jour
+            <div className="text-center">
+              <span className="text-sm text-foreground">
+                Copyright © 2026, Freikirche der Siebenten-Tags-Adventisten in Deutschland
               </span>
             </div>
           </div>

@@ -6,8 +6,22 @@ import { Target, BookOpen, Heart, HandHeart, Users } from 'lucide-react';
 export default function MissionPage() {
   return (
     <div className="gradient-background">
+      {/* Hero Section */}
+      <section className="relative py-20 flex items-center justify-center overflow-hidden">
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground animate-fade-in">
+              Notre Mission
+            </h1>
+            <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+              Partager l'Évangile de manière simple, fidèle et accessible à tous
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Community Photo */}
-      <section className="relative overflow-hidden pt-20">
+      <section className="relative overflow-hidden pb-4">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
             <img 
@@ -15,23 +29,6 @@ export default function MissionPage() {
               alt="Groupe en cercle - Prière communautaire" 
               className="w-full h-auto"
             />
-          </div>
-        </div>
-      </section>
-
-      {/* Hero Section */}
-      <section className="relative min-h-[400px] flex items-center justify-center overflow-hidden">
-        <div className="container mx-auto px-4 py-16 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-accent/20 mb-8">
-              <Target className="h-10 w-10 text-accent" />
-            </div>
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground animate-fade-in">
-              Notre Mission
-            </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-              Partager l'Évangile de manière simple, fidèle et accessible à tous
-            </p>
           </div>
         </div>
       </section>
@@ -163,7 +160,7 @@ export default function MissionPage() {
                     </Link>
                     <Link to="/vision">
                       <Button className="glass-button">
-                        Notre Vision
+                        Notre identité
                       </Button>
                     </Link>
                   </div>

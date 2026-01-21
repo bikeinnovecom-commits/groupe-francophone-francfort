@@ -5,8 +5,22 @@ import { MessageSquare, Users, Calendar, BookOpen } from 'lucide-react';
 export default function GuidePage() {
   return (
     <div className="gradient-background">
+      {/* Hero Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground animate-fade-in">
+              Notre Forum
+            </h1>
+            <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+              Un espace d'échange et de partage pour notre communauté francophone
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Forum Image */}
-      <section className="pt-20 pb-10">
+      <section className="pb-4">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
             <img 
@@ -14,23 +28,6 @@ export default function GuidePage() {
               alt="Discussion communautaire - Forum" 
               className="w-full h-auto"
             />
-          </div>
-        </div>
-      </section>
-
-      {/* Hero Section */}
-      <section className="py-10">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-accent/20 mb-8">
-              <MessageSquare className="h-10 w-10 text-accent" />
-            </div>
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground animate-fade-in">
-              Notre Forum
-            </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-              Un espace d'échange et de partage pour notre communauté francophone
-            </p>
           </div>
         </div>
       </section>

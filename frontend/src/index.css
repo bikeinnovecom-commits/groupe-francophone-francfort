@@ -8,20 +8,20 @@
         
         /* Palette : fond bleu ciel, cards blanc crème, boutons orange */
         --background: 212 42% 85%;  /* Bleu ciel très clair (fond) */
-        --foreground: 0 0% 10%;       /* Texte foncé */
+        --foreground: 220 60% 20%;  /* Bleu marine foncé pour le texte */
         --card: 40 40% 97%;          /* Blanc crème (cards) */
-        --card-foreground: 0 0% 10%; /* Texte foncé pour cards */
+        --card-foreground: 220 60% 20%; /* Bleu marine foncé pour texte des cards */
         --popover: 40 40% 97%;
-        --popover-foreground: 0 0% 10%;
+        --popover-foreground: 220 60% 20%;
         
         --primary: 18 100% 52%;       /* Orange (boutons primary) */
         --primary-foreground: 0 0% 100%;
         
         --secondary: 212 42% 56%;
-        --secondary-foreground: 0 0% 10%;
+        --secondary-foreground: 220 60% 20%;
         
         --muted: 212 35% 70%;
-        --muted-foreground: 0 0% 30%;
+        --muted-foreground: 220 50% 30%;
         
         --accent: 18 100% 52%;        /* #FF5A08 - Orange (boutons) */
         --accent-foreground: 0 0% 100%;

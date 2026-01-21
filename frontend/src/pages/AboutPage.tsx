@@ -112,19 +112,6 @@ export default function AboutPage() {
                   pour tous ceux qui parlent français et qui cherchent une communauté accueillante pour 
                   étudier la Bible et partager des moments de fraternité.            
             </p>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <Link to="/vision">
-                <Button className="glass-button glass-button-primary">
-                  Notre identité
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-              </Link>
-              <Link to="/projets">
-                <Button className="glass-button">
-                  Voir nos projets
-                </Button>
-              </Link>
-            </div>
           </div>
         </div>
       </section>
@@ -159,11 +146,11 @@ export default function AboutPage() {
                   
                   {/* Pioneers Photo */}
                   <div className="my-8 rounded-xl overflow-hidden shadow-xl max-w-3xl mx-auto">
-                    <img 
-                      src="/assets/pioneers.jpg" 
-                      alt="Les pionniers de l'Église adventiste" 
-                      className="w-full h-auto"
-                    />
+                      <img
+                        src="/assets/dis-le-au-monde.jpg"
+                        alt="Dis-le au Monde - L'histoire de l'Église Adventiste"
+                        className="w-full h-auto"
+                      />
                     <p className="text-sm text-muted-foreground text-center mt-2 italic">
                       Les pionniers de l'Église adventiste du septième jour
                     </p>
@@ -231,17 +218,31 @@ export default function AboutPage() {
                     Découvrez l'histoire des débuts de l'Église Adventiste à travers ce documentaire captivant
                   </p>
                   <div className="relative w-full max-w-4xl mx-auto" style={{ paddingBottom: '56.25%' }}>
-                    <iframe 
-                      className="absolute top-0 left-0 w-full h-full rounded-lg"
-                      src="https://www.youtube.com/embed/lpS_QTY7I_g" 
-                      title="Dis-le au monde - L'Histoire des débuts de l'Église Adventiste"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
+                    <img
+                      src="/assets/dis-le-au-monde.jpg"
+                      alt="Dis-le au Monde - L'histoire de l'Église Adventiste du Septième Jour"
+                      className="w-full h-auto rounded-lg shadow-lg"
+                    />
                   </div>
                 </CardContent>
               </Card>
+            </div>
+
+            {/* Call to Action Buttons */}
+            <div className="mt-16 text-center">
+              <div className="flex flex-wrap gap-4 justify-center">
+                <Link to="/vision">
+                  <Button className="glass-button glass-button-primary">
+                    Notre identité
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Button>
+                </Link>
+                <Link to="/projets">
+                  <Button className="glass-button">
+                    Voir nos projets
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
