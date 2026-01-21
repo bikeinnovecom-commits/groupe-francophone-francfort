@@ -147,8 +147,8 @@ export default function AboutPage() {
                   {/* Pioneers Photo */}
                   <div className="my-8 rounded-xl overflow-hidden shadow-xl max-w-3xl mx-auto">
                       <img
-                        src="/assets/dis-le-au-monde.jpg"
-                        alt="Dis-le au Monde - L'histoire de l'Église Adventiste"
+                        src="/assets/pioneers.jpg"
+                        alt="Les pionniers de l'Église adventiste du septième jour"
                         className="w-full h-auto"
                       />
                     <p className="text-sm text-muted-foreground text-center mt-2 italic">
