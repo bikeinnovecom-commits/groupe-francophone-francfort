@@ -43,7 +43,7 @@ function Layout() {
                 alt="Logo" 
                 className="h-18 w-18 object-contain flex-shrink-0"
               />
-              <span className="text-xs sm:text-lg font-bold text-foreground leading-tight pb-0.5">Groupe Francophone Adventiste de Francfort</span>
+              <span className="text-2xl sm:text-lg font-bold text-foreground leading-tight pb-0.5">Groupe Francophone Adventiste de Francfort</span>
             </Link>
 
             {/* Desktop Navigation */}
